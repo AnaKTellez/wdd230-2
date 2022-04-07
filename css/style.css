@@ -1,65 +1,38 @@
-body {
-  margin: 1em auto;
-  font-family: "Poppins", sans-serif;
-  font-size: larger;
-  max-width: 60%;
-}
-header {
-  background-color: #656d4a;
-  border-radius: 20px 20px 20px 20px;
-  font-family: "Poppins", sans-serif;
-  border: black 3px solid;
-}
-.main-header {
-  padding-bottom: 3px;
-  border-bottom: black 1px solid;
-}
-.presentation {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-}
-.presentation-img {
-  grid-column: 1/2;
-  display: flex;
-}
-.text {
-  text-align: center;
-  line-height: 180px;
-}
-img {
-  border-radius: 20px 20px 20px 20px;
+#recreation {
   display: block;
-  width: 180px;
-  height: 180px;
-  margin: 20px auto;
 }
-.presentation-text {
-  grid-column: 2/4;
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
-.main-footer {
-  border-top: black 1px solid;
+#join {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  margin: 0em;
+  justify-content: center;
 }
-footer {
-  background-color: #656d4a;
-  padding: 20px 0px 20px 40px;
-  border-radius: 15px 15px 15px 15px;
+button {
+  background-color: #17BEBB;
+}
+#information {
+  display: block;
+}
+
+.spotlight {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
   text-align: center;
-  border: black 3px solid;
+}
+p {
+  margin: 0;
+  text-align: center;
+}
+b {
+  text-align: center;
 }
 
-@media only screen and (max-width: 1094px) {
-  img {
-    width: 150px;
-    height: 150px;
-    align-self: center;
-  }
-}
-@media only screen and (max-width: 950px) {
-  img {
-    width: 120px;
-    height: 120px;
-    align-self: center;
-  }
-}
-
-/*https://coolors.co/233d4d-fe7f2d-fcca46-a1c181-619b8a*/
