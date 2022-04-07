@@ -1,100 +1,143 @@
 <!DOCTYPE html>
-<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway:wght@400;500&family=Roboto+Slab&display=swap");
-  </style>
-  <body>
-    <div class="content">
-      <header>
-        <div class="presentation">
-          <div class="presentation-img">
-            <img
-              src="personal-Image.jpeg"
-              alt=""
-              width="150px"
-              height="200px"
-              class=""
-            />
-          </div>
-          <div class="presentation-text">
-            <h2 class="text">Ana Katia Tellez</h2>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Week_5B/css/normalize.css">
+    <link rel="stylesheet" href="../Week_5B/css/small.css">
+    <link rel="stylesheet" href="../Week_5B/css/medium.css">
+    <link rel="stylesheet" href="../Week_5B/css/larger.css">
+    <link rel="stylesheet" href="../Week_5B/css/style.css">
+    <link rel="stylesheet" href="../Week_11/date.js">
+    <title>Temple Inn & Suites </title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway:wght@400;500&family=Roboto+Slab&display=swap');
+</style>
+<body>
+    <header>
+        <div class="nav_logo">
+            <img src="../Week_5B/img/logo.png" alt="logo" height="100" class="logo">
+            <div class="content_header">
+                <h1>Temple Inn & Suites </h2>
+                
+            </div>
+        <div class="center" id="date-social"> 
+                <!--<div class="center" id="date">
+                    <p>Friday, March 18th 2022 </p>
+
+                </div>-->
+                <div id="social">
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <img src="../Week_5B/img/facebook.png" alt="Facebook" height="35">
+                    </a>
+                    <a target="_blank" href="https://www.twitter.com/">
+                        <img src="../Week_5B/img/twitter.png" alt="Twitter" height="35">
+                    </a>
+                </div>
+            </div>
+            <style>
+                #date-social{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 3em;
+                }
+
+                .center{
+                    text-align:center;
+                    align-items: center;
+                }
+            </style>
         </div>
-      </header>
-      <main>
-        <div class="lesson-list">
-          <p class="main-header"><b>WDD 230: Assignment Portal</b></p>
-          <ul>
-            <li>
-              Lesson 02:
-              <a href="/wdd230-1/Week_2/design-principles.html"
-                >Design Principles</a
-              >
-            </li>
-            <li>
-              Lesson 03: <a href="/wdd230-1/Week_3/index.html">Site Plan</a>
-            </li>
-            <li>
-              Lesson 04:
-              <a href="/wdd230-1/Week_4/index.html">Chamber Home Page Build</a>
-            </li>
-            <li>
-              Lesson 05:
-              <a href="/wdd230-1/Week_5/bom.html">Activity: DOM Manipulation</a>
-            </li>
-            <li>
-              Lesson 06:
-              <a href="/wdd230-1/Week_5B/index.html">Chamber of Commerce</a>
-            </li>
-            <li>
-              Lesson 07:
-              <a href="/wdd230-1/Week_7/lazyload.html"
-                >Progressing Loading of Images</a
-              >
-            </li>
-            <li>
-              Lesson 07B:
-              <a href="/wdd230-1/Week_7B/discover.html">The Discover Page</a>
-            </li>
-            <li>
-              Lesson 08:
-              <a href="/wdd230-1/Week_8/tablebuild.html">Table Build</a>
-            </li>
-            <li>
-              Lesson 09:
-              <a href="/wdd230-1/Week_9/prophets.html">Prophets Cards</a>
-            </li>
-            <li>
-              Lesson 10:
-              <a href="../wdd230-1/Week_5B/index.html">Weather API</a>
-            </li>
-            <li>
-              Lesson 11:
-              <a href="../wdd230-1/Week_11/contact.html">Contact Page</a>
-            </li>
-          </ul>
-          <p class="main-footer">
-            <i>Some lessons may need more than one activity/assignment link</i>
-          </p>
+        <nav class="navbar">
+            <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="navbar_list"><a href="../index.html">Home</a></li>
+                <li class="navbar_list"><a href="../Week_8B/join.html">Reservation</a></li>
+                <li class="navbar_list"><a href="../Week_9B/directory.html">Directory</a></li>
+                <li class="navbar_list"><a href="../Week_7B/discover.html">Gallery</a></li>
+                <li class="navbar_list"><a href="../Week_11/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="content">
+            <h2 class="main_header">Chamber of Commerce</h2>
+            <div class="main_content_box">
+                <div class="content_box" id="hero">
+                    <h2>Shaver Lake Ice Roads: </h2>
+                    <img src="../Week_5B/img/roads.webp" alt="Ice Roads" height="300" >
+                </div>
+                <div class="content_box" id="forecast">
+                </div>
+                <div class="content_box" id="recreation">
+                    <b>Services</b>
+                    <ul>
+                        <li>Inn & Suites</li>
+                        <li>Wedding Receptions</li>
+                        <li><a href="https://www.booking.com/cars/index.en-gb.html?aid=1572704&affiliateCode=booking-cars&adplat=booking-google&label=brand-booking-com-eAfP_xosAlECEB_G9Cds6wS459899255690&:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-342262819408:lp9073855:li:dec:dm;ws=&gclid=CjwKCAjw9LSSBhBsEiwAKtf0nxc5ScajM2kPwIN9mxVNERX4GTSQ4WC_3V_DzGwE4WQU4hXL5MYR6BoCzfkQAvD_BwE">Temple Transportation</a></li>
+                        <li><a href="https://www.expedia.mx/">Airport Transportation</a></li>
+                        <li><a href="https://www.churchofjesuschrist.org/temples?lang=eng">Temple Reservation</a> </li>
+                        <li><a href="https://www.flytographer.com/">To remember</a></li>
+                    </ul>
+                </div>
+                <div class="content_box" id="information">
+                    <b> News</b>
+                    <h4>How the Savior modeled service and community building for the latter days</h4>
+                    <p>The Lord invites people to be aware of the world and also be engaged in their communities, Bishop Caussé said during the International Society conference. Sister Eubank shared how this dual approach is working in Europe.</p>
+                    <a href="https://www.thechurchnews.com/">Other Church News</a>
+                </div>
+                <div class="content_box extra" id="join">
+                    <p>Make your reservation today!</p>
+                    <button onclick="location.href='../Week_8b/join.html'" type="button" >Join Now!</button>
+                </div>
+                <div class="content_box spotlight_box" id="spotlight">
+                    <div class="spotlight1 spotlight">
+                        <b>National Appeals</b>
+                        <p>This site contains information about the Forest Service's Environmental Appeals. An appeal is a request to an agency higher authority for review of an environmental decision.</p>
+                    </div>
+                    <div class="spotlight2 spotlight">
+                        <b>Objection Responses</b>
+                        <p>Recent and historical objection responses are available on this site and are organized by the Administrative Unit issuing the response. </p>
+                    </div>
+                    <div class="spotlight3 spotlight extra">
+                        <b>Sierra National Plan</b>
+                        <p>The Sequoia and Sierra National Forests are revising their forest land management plans using the 2012 Planning Rule, which provides a framework for U.S. </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </main>
-      <footer>
-        <div id="footer-top">
-          &copy;
-          <span id="currentyear">2022</span>
-          Ana Tellez | Tijuana
+    </main>
+
+    
+    <footer>
+        <div class="content_box " id="footer_content_box">
+            <img src="../Week_5B/img/logo.png" alt="favicon" height='100'class="foot_img">
+            <div class="footer_top">
+                <div class="foot_content">
+                    <div class="left_side">
+                        <h3>Temple Inn & Suites</h3>
+                        <h4>4800 Montgomery Ln #300, Bethesda, MD 20814</h4>
+                    </div>
+                    <div class="right_side">
+                        <p>reservations@templeinn.com</p>
+                        <p>+(1)9999-999</p>
+                        <p>Location Map</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="foot_bot">
+                &copy;
+                <span id="currentyear">2022</span>
+                |  Ana Tellez | Tijuana
+                </div>
+                <span id="lastmod"> </span>
+            </div>
         </div>
-        <span id="lastmod"> </span>
-      </footer>
-      <script src="../wdd230-1/js/script.js"></script>
-    </div>
-  </body>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
 </html>
