@@ -31,7 +31,7 @@ nav button {
 }
 
 nav {
-  background-color: #656d4a;
+  background-color: #0E7C7B;
   font-size: medium;
   font-family: "Poppins", sans-serif;
 }
@@ -52,11 +52,11 @@ nav ul li a {
 
 nav ul li.active a {
   background-color: rgba(0, 0, 0, 0.2);
-  color: #a68a64;
+  color: #4B1D3F;
 }
 
 nav ul li a:hover {
-  background-color: #c2c5aa;
+  background-color: #17BeBB;
 }
 
 nav ul {
@@ -92,7 +92,7 @@ div.content_box {
   height: 200px;
   padding: 20px;
   border: 1px solid rgba(13, 38, 122, 0.9);
-  background-color: rgba(13, 38, 122, 0.178);
+  background-color: #D4F4DD;
   margin-bottom: 10px;
 }
 div.spotlight_box {

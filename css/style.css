@@ -36,3 +36,7 @@ b {
   text-align: center;
 }
 
+b a, h2 a{
+  color: #0E7C7B;
+  text-decoration: none;
+}
