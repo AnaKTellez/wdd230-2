@@ -40,7 +40,6 @@ function displayProphets(business) {
   card.appendChild(name);
   card.appendChild(image);
   card.appendChild(addresses);
-  card.appendChild(phones);
   card.appendChild(URL);
 
   // Add/append the existing HTML div with the cards class with the section(card)
